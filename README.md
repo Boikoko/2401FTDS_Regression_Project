@@ -7,21 +7,27 @@
 </div>
 
 ## Table of contents
-* [1. Project Overview](#project-description)
-* [2. Dataset](#dataset)
-* [3. Packages](#packages)
-* [4. Environment](#environment)
-* [5. Team Members](#team-members)
+
+- [1. Project Overview](#project-description)
+- [2. Dataset](#dataset)
+- [3. Packages](#packages)
+- [4. Environment](#environment)
+- [5. Team Members](#team-members)
 
 ## 1. Project Overview <a class="anchor" id="project-description"></a>
-Your team of environmental consultants and data scientists are tasked by a coalition of agricultural stakeholders to analyse and predict the effect of CO2 emissions on climate change from the agri-food sector. The stakeholders include policymakers, agricultural businesses, and environmental organisations. Your project aims to understand the impact of agricultural activities on climate change and develop strategies for sustainable practices. Utilising a comprehensive dataset compiled from the Food and Agriculture Organization (FAO) and the Intergovernmental Panel on Climate Change (IPCC), you will explore various emission sources, perform regression analysis to predict temperature variations, and offer actionable insights for the stakeholders.
 
-By the end of this project, you will have a thorough understanding of the impact of agricultural activities on CO2 emissions and climate change. Your findings and recommendations will contribute to the ongoing efforts to promote sustainability within the agri-food sector, providing valuable insights for the stakeholders involved in this initiative.
+A team of environmental consultants and data scientists has been tasked by a coalition of agricultural stakeholders to analyze and predict the impact of CO2 emissions from the agri-food sector on climate change. The coalition comprises policymakers, agricultural businesses, and environmental organizations. The project aims to understand the effects of agricultural activities on climate change and develop strategies for sustainable practices.
+
+By utilizing a comprehensive dataset compiled from the Food and Agriculture Organization (FAO) and the Intergovernmental Panel on Climate Change (IPCC), the team will explore various emission sources. Regression analysis will be employed to predict temperature variations. The findings and recommendations will provide actionable insights for stakeholders.
+
+Upon project completion, the team will have a thorough understanding of the impact of agricultural activities on CO2 emissions and climate change. The insights and recommendations will contribute to the ongoing efforts to promote sustainability within the agri-food sector, offering valuable guidance to the involved stakeholders.
 
 ## 2. Dataset <a class="anchor" id="dataset"></a>
+
 Emissions from the agri-food sector play a crucial role in climate change, as they represent a significant share of global annual emissions. The dataset highlights the substantial contribution of the various sources of emissions. Therefore, it is essential to understand and address the environmental impact of the agri-food industry to mitigate climate change and promote sustainable practices within this sector.
 
 **Dataset Features:**
+
 - Savanna fires: Emissions from fires in savanna ecosystems.
 - Forest fires: Emissions from fires in forested areas.
 - Crop Residues: Emissions from burning or decomposing leftover plant material after crop harvesting.
@@ -51,7 +57,6 @@ Emissions from the agri-food sector play a crucial role in climate change, as th
 - Total Population - Female: Total number of female individuals in the population.
 - total_emission: Total greenhouse gas emissions from various sources.
 - Average Temperature °C: The average increasing of temperature (by year) in degrees Celsius,
- 
 
 CO2 is recorded in kilotonnes (kt): 1 kt represents 1000 kg of CO2.
 
@@ -62,13 +67,13 @@ Forestland is the only feature that exhibits negative emissions due to its role 
 ## 3. Packages <a class="anchor" id="packages"></a>
 
 To carry out all the objectives for this repo, the following necessary dependencies were loaded:
-+ `Pandas 2.2.2` and `Numpy 1.26`
-+ `Matplotlib 3.8.4`
- 
+
+- `Pandas 2.2.2` and `Numpy 1.26`
+- `Matplotlib 3.8.4`
 
 ## 4. Environment <a class="anchor" id="environment"></a>
 
-It's highly recommended to use a virtual environment for your projects, there are many ways to do this; we've outlined one such method below. Make sure to regularly update this section. This way, anyone who clones your repository will know exactly what steps to follow to prepare the necessary environment. The instructions provided here should enable a person to clone your repo and quickly get started.
+For this project the conda environment management system will be required. Below are instructions on how to set it up.
 
 ### Create the new evironment - you only need to do this once
 
@@ -90,16 +95,10 @@ pip install -r requirements.txt
 
 ## 5. Team Members<a class="anchor" id="team-members"></a>
 
-| Name                                                                                        |  Email              
-|---------------------------------------------------------------------------------------------|--------------------             
-| [Marc Marais](https://github.com/marcmarais)                                                | mmarias@sandtech.com
-| [James Beta](https://github.com/James-Beta)                                                                                  | jbeta@sandtech.com
-| [Oladare Adekunle](https://github.com/DareSandtech)                                                                            | oadekunle@sandtech.com
-| [Ereshia Gabier](https://github.com/ereshia)                                                | egabier@sandtech.com
-
-
-
-#### Additional Resources to create a README file:
-- [Make a README](https://www.makeareadme.com/)
-- [GitHub Docs](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
-- [FreeCodeCamp](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+| Name                                                                | Email                            |
+| ------------------------------------------------------------------- | -------------------------------- |
+| [Nombulelo Perfidia Tracy Nyoni](https://github.com/nombulelotracy) | nombulelotracy@gmail.com         |
+| [Nthabiseng Amanda Mokhachane](https://github.com/NthabisengM95)    | nthabisengmokhachane95@gmail.com |
+| [Melokuhle Zekhethelo Makhwasa](https://github.com/melokuhle17)     | melokuhlezek17@gmail.com         |
+| [Boikokobetso Nkoko Ramashija](https://github.com/Boikoko)          | boikoko.programs@gmail.com       |
+| [Khumbelo Shaun Dowelani](https://github.com/dowelani)              | dowelanikhumbelo@gmail.com       |
